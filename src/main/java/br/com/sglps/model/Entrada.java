@@ -1,0 +1,35 @@
+package br.com.sglps.model;
+
+public class Entrada {
+
+	private String userName;
+	private String password;
+
+	// Constructor using fields
+	public Entrada() {
+		super();
+	}
+
+	public Entrada(String userName, String password) {
+		super();
+		this.userName = userName;
+		this.password = password;
+	}
+
+	public String getUserName() {
+		return userName;
+	}
+
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+}
